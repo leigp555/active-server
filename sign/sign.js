@@ -1,12 +1,12 @@
-$.ajax({
-  method:"GET",
-  url: "/sign/sign.css",
-  contentType: "text/css;charset=utf-8",
-}).then((e)=>{
-  let style=document.createElement("style")
-  style.innerHTML=e
-  document.head.appendChild(style)
-})
+// $.ajax({
+//   method:"GET",
+//   url: "/sign/sign.css",
+//   contentType: "text/css;charset=utf-8",
+// }).then((e)=>{
+//   let style=document.createElement("style")
+//   style.innerHTML=e
+//   document.head.appendChild(style)
+// })
 const $sign = $("#signForm");
 $sign.on("submit", (e) => {
   e.preventDefault();
