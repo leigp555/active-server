@@ -4,18 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>sign in</title>
+    <link rel="stylesheet" href="./sign/sign.css" />
   </head>
   <body>
-    <form id="signForm">
-      <div>
-        <label for="">用户名<input type="text" name="name" /></label>
+    <div class="img"><h1>登录</h1></div>
+    <div class="form">
+      <form id="signForm">
+        <div class="content line top">
+          <p>Username or email address</p>
+        </div>
+        <div class="content">
+          <label ><input class="input" type="text" name="name" /></label>
+        </div>
+        <div class="content line">
+          <p>Password</p>
+        </div>
+        <div class="content">
+          <label><input class="input" type="text" name="password" /></label>
+        </div>
+        <div class="content"><button class="input inputA">Sign in</button></div>
+      </form>
+      <div class="bottom ">
+        <div class="inner">
+          <a href="/register/register.html">Create an account</a>
+        </div>
       </div>
-      <div>
-        <label for="">密码<input type="text" name="password" /></label>
-      </div>
-      <div><button>登录</button></div>
-    </form>
+    </div>
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="/sign/sign.js"></script>
   </body>

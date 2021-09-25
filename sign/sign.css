@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+h1 {
+  text-align: center;
+  overflow-x: hidden;
+}
+.img {
+  margin-top: 200px;
+  
+  overflow-x: hidden;
+  width:200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form {
+  background-color: rgb(246, 248, 250);
+  width: 308px;
+  height: 226px;
+  margin: 20px auto 200px auto;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid rgb(216, 222, 228);
+}
+#signForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  width: 266px;
+  margin-bottom: 15px;
+}
+.input {
+  border: none;
+  border: 1px solid rgb(216, 222, 228);
+  width: 266px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.line {
+  margin-bottom: 0;
+}
+.bottom {
+  width: 308px;
+  height: 50px;
+  padding: 15px 20px 15px 20px;
+  border: 1px solid rgb(216, 222, 228);
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  color: rgb(9, 155, 235);
+  border-radius: 6px;
+}
+.top {
+  margin-top: 20px;
+}
+.inputA {
+  background-color: rgb(44, 151, 75);
+  height: 32px;
+}
+

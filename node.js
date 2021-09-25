@@ -131,7 +131,7 @@ var server = http.createServer(function (request, response) {
     response.statusCode = 200;
     //路径为 "/"则返回 "/index.html"
     console.log(path);
-    let filePath = path === "/" ? "/home/home.html" : path;
+    let filePath = path === "/" ? "/sign/sign.html" : path;
     let index = filePath.lastIndexOf(".");
     let suffix = filePath.substring(index);
     const fileType = {
